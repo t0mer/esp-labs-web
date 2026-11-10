@@ -10,6 +10,6 @@ You can expect a first answer within a week. Once a fix is out, the advisory is 
 
 ## Supported versions
 
-Only the live guide at <https://esp-labs-web.vercel.app>, built from `main`, is supported.
+Only the live guide at <https://esp-lab.cloudguard.co.il>, built from `main`, is supported.
 
 A problem in the firmware that runs on the board belongs to [esp-labs](https://github.com/agharsallah/esp-labs/security).

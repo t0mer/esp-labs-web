@@ -7,5 +7,5 @@ contact_links:
     url: https://github.com/agharsallah/esp-labs/issues
     about: Crashes, wrong pins, build or flash errors belong in the esp-labs repo.
   - name: Open the live guide
-    url: https://esp-labs-web.vercel.app
+    url: https://esp-lab.cloudguard.co.il
     about: Check whether the problem still happens on the latest version.
