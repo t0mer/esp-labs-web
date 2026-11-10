@@ -5,7 +5,7 @@
 **Wire it, flash it, watch it, then read the code.**<br>
 An interactive guide to the ESP32-S3: 32 hands-on labs with live simulators, a 3D board, a pinout, a reader that explains the firmware line by line, and the chip's datasheet made readable.
 
-[![Open the live guide](https://img.shields.io/badge/open_the_live_guide-esp--labs--web.vercel.app-1f7a55?style=for-the-badge)](https://esp-labs-web.vercel.app)
+[![Open the live guide](https://img.shields.io/badge/open_the_live_guide-esp--lab.cloudguard.co.il-1f7a55?style=for-the-badge)](https://esp-lab.cloudguard.co.il)
 
 [![React 19](https://img.shields.io/badge/React-19.3-149eca?logo=react&logoColor=white)](https://react.dev)
 [![TypeScript strict](https://img.shields.io/badge/TypeScript-6.0_strict-3178c6?logo=typescript&logoColor=white)](tsconfig.app.json)
@@ -15,7 +15,7 @@ An interactive guide to the ESP32-S3: 32 hands-on labs with live simulators, a 3
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-1f7a55)](CONTRIBUTING.md)
 [![MIT License](https://img.shields.io/badge/license-MIT-1f7a55)](LICENSE)
 
-[Live guide](https://esp-labs-web.vercel.app) ·
+[Live guide](https://esp-lab.cloudguard.co.il) ·
 [Firmware (esp-labs)](https://github.com/agharsallah/esp-labs) ·
 [Architecture](docs/ARCHITECTURE.md) ·
 [Contributing](CONTRIBUTING.md) ·
@@ -55,7 +55,7 @@ Each lesson is one sheet: the goal, the pins it uses on a live pinout, the wirin
 
 ### The datasheet, made for makers
 
-The new **Datasheet** section ([`#/datasheet`](https://esp-labs-web.vercel.app/#/datasheet)) is about the ESP32-S3 itself. **Explore** keeps the 10% of Espressif's documents a maker needs: the chip at a glance with a 3D dive from the board down to the die, every pin and its jobs, an atlas of all 32 peripheral blocks with a page each, and memory, clocks and power modes. Each fact cites its section of the reference, the "things that bite" are called out, and the blocks your labs have used light up as you tick steps.
+The new **Datasheet** section ([`#/datasheet`](https://esp-lab.cloudguard.co.il/#/datasheet)) is about the ESP32-S3 itself. **Explore** keeps the 10% of Espressif's documents a maker needs: the chip at a glance with a 3D dive from the board down to the die, every pin and its jobs, an atlas of all 32 peripheral blocks with a page each, and memory, clocks and power modes. Each fact cites its section of the reference, the "things that bite" are called out, and the blocks your labs have used light up as you tick steps.
 
 A citation opens that section of the reference in a side reader, and **Read** turns the board guide, module datasheet, chip datasheet and technical reference into one book you can read cover to cover, with section ticks and "Continue at". Titles follow your language; the text stays Espressif's English.
 
@@ -80,7 +80,7 @@ The guide is in English, French, Spanish, Italian, German, Polish, Turkish, Chin
 - **Meet the board**: the DevKitC-1 in 3D (three.js) with six callouts. Each one lights up its part and lists the labs that use it.
 - **The bench log**: what is flashed on the board right now and every command recorded. It is plain JSON in `public/data/`, so you can update it without a rebuild.
 - **Progress**: your ticks, the last lesson you opened and the variants you picked stay in your browser, with no account.
-- **The parts library** at [`#/parts`](https://esp-labs-web.vercel.app/#/parts): 42 isometric drawings of every component on the bench, coloured from design tokens only.
+- **The parts library** at [`#/parts`](https://esp-lab.cloudguard.co.il/#/parts): 42 isometric drawings of every component on the bench, coloured from design tokens only.
 
 ## The labs
 

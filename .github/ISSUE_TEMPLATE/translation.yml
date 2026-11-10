@@ -31,7 +31,7 @@ body:
     attributes:
       label: Link
       description: The page where you saw it. Copy the address bar.
-      placeholder: https://esp-labs-web.vercel.app/#/lessons/02?lang=de
+      placeholder: https://esp-lab.cloudguard.co.il/#/lessons/02?lang=de
   - type: textarea
     id: current
     attributes:

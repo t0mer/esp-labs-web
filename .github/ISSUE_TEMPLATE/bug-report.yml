@@ -12,7 +12,7 @@ body:
     attributes:
       label: Link
       description: Copy the address bar. It carries the lesson, the tab and the language.
-      placeholder: https://esp-labs-web.vercel.app/#/lessons/R3?lang=en
+      placeholder: https://esp-lab.cloudguard.co.il/#/lessons/R3?lang=en
     validations:
       required: true
   - type: dropdown
